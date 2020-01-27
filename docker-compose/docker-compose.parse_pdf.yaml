@@ -1,0 +1,19 @@
+version: "3.7"
+services:
+  app:
+    build:
+      context: ../
+      dockerfile: ./docker/DockerFile 
+    environment: 
+      - PDF_PATH=/data/test_pdf.pdf
+      - PDF_RESULT_PATH=/results/parsed_pdf_results.csv
+      - PYTHONUNBUFFERED=1
+      # comming soon!
+      - PARSE_TABLES=0 # 1 if tables should be parsed and saved
+      - PDF_TABLES_FOLDER=/results/tables/
+    volumes:
+      - ../app/:/app/
+      - ../data:/data
+      - ../results:/results
+    entrypoint:
+      ["python3", "/app/parse_pdf.py"]

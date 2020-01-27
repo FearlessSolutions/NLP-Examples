@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  app:
+    build:
+      context: ../
+      dockerfile: ./docker/DockerFile 
+    environment: 
+      - CSV_PATH=/data/how_to_engineer_impact_w_data.csv
+      - TOPIC_RESULT_PATH=/results/topic_model_results.csv
+      - COLUMN_KEY=What is an example of Data Science?
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ../app/:/app/
+      - ../data:/data
+      - ../results:/results
+    entrypoint:
+      ["python3", "/app/lda_topic_modeling.py"]

@@ -1,0 +1,40 @@
+[(0,
+  '0.044*"science" + 0.044*"aka" + 0.044*"multimodal" + 0.044*"enable" + '
+  '0.044*"department" + 0.044*"zero" + 0.044*"reshape" + 0.044*"vision" + '
+  '0.044*"transportation" + 0.044*"street"'),
+ (1,
+  '0.060*"subject" + 0.060*"inform" + 0.060*"make" + 0.060*"user" + '
+  '0.060*"sense" + 0.060*"decision" + 0.060*"complex" + 0.060*"thing" + '
+  '0.060*"take" + 0.060*"ai"'),
+ (2,
+  '0.064*"baltimore" + 0.064*"estimate" + 0.064*"satellite" + 0.064*"imagery" '
+  '+ 0.064*"area" + 0.064*"city" + 0.064*"poverty" + 0.064*"ball" + '
+  '0.064*"money" + 0.006*"analysis"'),
+ (3,
+  '0.012*"data" + 0.012*"analysis" + 0.012*"machine" + 0.012*"learning" + '
+  '0.012*"engine" + 0.012*"science" + 0.012*"like" + 0.012*"genomic" + '
+  '0.012*"interpretation" + 0.012*"analyze"'),
+ (4,
+  '0.099*"electoral" + 0.099*"district" + 0.099*"analysis" + 0.009*"data" + '
+  '0.009*"machine" + 0.009*"learning" + 0.009*"like" + 0.009*"science" + '
+  '0.009*"interpretation" + 0.009*"genomic"'),
+ (5,
+  '0.087*"information" + 0.046*"find" + 0.046*"pattern" + 0.046*"turn" + '
+  '0.046*"hidden" + 0.046*"classification" + 0.046*"engine" + 0.046*"provide" '
+  '+ 0.046*"base" + 0.046*"big"'),
+ (6,
+  '0.123*"analyze" + 0.064*"research" + 0.064*"form" + 0.064*"survey" + '
+  '0.064*"meaningfully" + 0.064*"visualize" + 0.064*"set" + 0.064*"data" + '
+  '0.006*"analysis" + 0.006*"machine"'),
+ (7,
+  '0.151*"learning" + 0.151*"machine" + 0.106*"data" + 0.055*"google" + '
+  '0.055*"modeling" + 0.055*"analytics" + 0.055*"analysis" + 0.005*"ai" + '
+  '0.005*"interpretation" + 0.005*"genomic"'),
+ (8,
+  '0.055*"crime" + 0.055*"look" + 0.055*"health" + 0.055*"trend" + '
+  '0.055*"predicting" + 0.055*"time" + 0.055*"uber" + 0.055*"day" + '
+  '0.055*"history" + 0.055*"want"'),
+ (9,
+  '0.061*"base" + 0.061*"analysis" + 0.061*"senior" + 0.061*"telemetry" + '
+  '0.061*"give" + 0.061*"leader" + 0.061*"prediction" + 0.061*"data" + '
+  '0.061*"like" + 0.061*"genomic"')]
