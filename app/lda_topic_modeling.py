@@ -188,9 +188,9 @@ def process_survey():
     bigram_mod, trigram_mod = create_bigram_trigram_models(all_data_corpus)
 
     # process ds examples 
-    cleaned_text = ds_ttokenized_dfext_df.apply(clean_text)
+    cleaned_text = tokenized_df.apply(clean_text)
 
-    lda_model = process_topics(cleaned_all_data_corpus, cleaned_text.tolist())
+    lda_model = process_topics("", cleaned_text.tolist())
 
     # write out LDA results
     with open(topic_results_path, "w") as fh:
@@ -203,5 +203,5 @@ def process_survey():
     generate_word_cloud(p_r)    
 
 if __name__ == "__main__":
-    process_pdf_text()
+    process_survey()
   
